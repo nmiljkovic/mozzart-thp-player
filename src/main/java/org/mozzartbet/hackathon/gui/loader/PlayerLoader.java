@@ -1,7 +1,7 @@
 package org.mozzartbet.hackathon.gui.loader;
 
 import org.mozzartbet.hackathon.Player;
-import org.mozzartbet.hackathon.gui.bots.BasicBot;
+import org.mozzartbet.hackathon.bots.BasicBot;
 
 import java.util.ArrayList;
 import java.util.List;

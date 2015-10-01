@@ -1,4 +1,4 @@
-package org.mozzartbet.hackathon.gui.bots;
+package org.mozzartbet.hackathon.bots;
 
 import org.mozzartbet.hackathon.Card;
 import org.mozzartbet.hackathon.Player;
