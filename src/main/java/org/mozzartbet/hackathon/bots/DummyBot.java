@@ -12,7 +12,7 @@ import java.util.Set;
 /**
  * Dummy Texas Hold'em poker bot that always just checks or calls. <br />
  * <br />
- * 
+ *
  * This bot allowed for perfectly predictable behavior.
  */
 public class DummyBot implements Bot {
@@ -25,7 +25,7 @@ public class DummyBot implements Bot {
 
     /** {@inheritDoc} */
     @Override
-    public void joinedTable(TableType type, int bigBlind, List<Player> players) {
+    public void joinedTable(TableType type, int bigBlind) {
         // Not implemented.
     }
 

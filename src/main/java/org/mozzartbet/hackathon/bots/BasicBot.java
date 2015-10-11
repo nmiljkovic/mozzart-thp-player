@@ -16,13 +16,13 @@ import java.util.Set;
 /**
  * Basic Texas Hold'em poker bot. <br />
  * <br />
- * 
+ *
  * The current implementation acts purely on the bot's hole cards, based on the
  * Chen formula, combined with a configurable level of tightness (when to play
  * or fold a hand ) and aggression (how much to bet or raise in case of good
  * cards or when bluffing). <br />
  * <br />
- * 
+ *
  * TODO:
  * <ul>
  * <li>Improve basic bot AI</li>
@@ -33,22 +33,22 @@ import java.util.Set;
  * </ul>
  */
 public class BasicBot implements Bot {
-    
+
     /** Tightness (0 = loose, 100 = tight). */
     private final int tightness;
-    
+
     /** Betting aggression (0 = safe, 100 = aggressive). */
     private final int aggression;
-    
+
     /** Table type. */
     private TableType tableType;
-    
+
     /** The hole cards. */
     private Card[] cards;
-    
+
     /**
      * Constructor.
-     * 
+     *
      * @param tightness
      *            The bot's tightness (0 = loose, 100 = tight).
      * @param aggression
@@ -68,7 +68,7 @@ public class BasicBot implements Bot {
 
     /** {@inheritDoc} */
     @Override
-    public void joinedTable(TableType type, int bigBlind, List<Player> players) {
+    public void joinedTable(TableType type, int bigBlind) {
         this.tableType = type;
     }
 
